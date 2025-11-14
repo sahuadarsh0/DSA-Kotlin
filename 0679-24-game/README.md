@@ -3,12 +3,12 @@
 <p>You are restricted with the following rules:</p>
 
 <ul>
-	<li>The division operator <code>&#39;/&#39;</code> represents real division, not integer division.
-
+	<li>
+		The division operator <code>&#39;/&#39;</code> represents real division, not integer division.
+	</li>
 	<ul>
 		<li>For example, <code>4 / (1 - 2 / 3) = 4 / (1 / 3) = 12</code>.</li>
 	</ul>
-	</li>
 	<li>Every operation done is between two numbers. In particular, we cannot use <code>&#39;-&#39;</code> as a unary operator.
 	<ul>
 		<li>For example, if <code>cards = [1, 1, 1, 1]</code>, the expression <code>&quot;-1 - 1 - 1 - 1&quot;</code> is <strong>not allowed</strong>.</li>
